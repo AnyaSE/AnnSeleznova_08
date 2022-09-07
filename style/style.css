@@ -26,19 +26,23 @@ ul, ol {
     list-style: none; /*removing list styling (bullets) for the lists*/
 }
 
+.wrapper {
+    width: 100%; 
+    height: 100%;
+}
+
 .header {
     display: flex; 
     flex-direction: column;
-    padding: 79px 0 0 399px;
+    padding: 4% 0 0 21%;
     background-color: #EEEFF1;
 }
 
 .nav {
     display: flex;
-    padding-bottom: 257px;
+    padding-bottom: 10%;
     line-height: 26px;
     letter-spacing: 0.1em;
-    border: black 2px solid;
 }
 
 .nav__link {
@@ -52,32 +56,25 @@ ul, ol {
     cursor: pointer;
 }
 
-.nav__link:active {
-    color: #34547A;
-    font-weight: 500;
+.banner__title, .banner__text {
+    padding-bottom: 3%; 
 }
 
 .banner__title {
     font-weight: 500;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 79px; 
-    padding-bottom: 60px; 
-    border: black 2px solid;
-}
-
-.banner__text {
     width: 540px;
-    padding-bottom: 65px;
 }
 
 p[class$="text"] {
     line-height: 26px;
     color: #727272; 
-    width: 540px;
+    width: 30%;
 }
 
 .button {
-    width: 225px;
+    width: 13%;
     text-align: center;
     padding: 19px 41px 20px;
     margin-bottom: 141px;
@@ -123,11 +120,15 @@ h2[class$="title"] {
 .section__divider {
     background: #34547A;
     padding: 100px 0;
-    margin-bottom: 100px;
 }
 
 .divider__subcontent {
     flex-direction: column;
+}
+
+.product {
+    background: #EEEFF1;
+    padding-top: 100px;
 }
 
 h3[class$="subtitle"] {
@@ -147,6 +148,7 @@ p[class$="item"] {
 
 .product__text {
     padding-bottom: 57px;
+    text-align: center;
 }
 
 .product__video {
