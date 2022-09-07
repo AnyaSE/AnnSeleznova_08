@@ -145,7 +145,15 @@ p[class$="item"] {
     color: #FFFFFF
 }
 
+.product__text {
+    padding-bottom: 57px;
+}
 
+.product__video {
+    width: 1110px;
+    height: 600px;
+    padding-bottom: 100px;
+}
 
 
 
