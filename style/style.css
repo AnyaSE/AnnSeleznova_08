@@ -1,0 +1,26 @@
+* {
+    margin: 0; /*setting margin to 0, to reset the default page styling*/
+    padding: 0; /*setting padding to 0 to reset the default page styling*/
+    outline: 0; /*setting outline to 0 to reset the default page styling*/
+    border: 0; /*setting border to 0 to reset the default page styling*/
+    box-sizing: border-box; /*setting box-sizing, so we dont need to manually count this*/
+}
+
+html {
+    font-size: 16px; /*setting page font size to 16px*/
+}
+
+body {
+    font-size: 1rem; /*making 16px font-size equivalent to 1 rem*/
+    line-height: 1; /*setting line height to 1*/
+    font-family: 'Roboto', sans-serif; /*setting the font family for the website*/
+    background: #F9F9F9; /*setting background colour for the website*/
+}
+
+a {
+    text-decoration: none; /*removing the text decoration for links (i.e. underline)*/
+}
+
+ul, ol {
+    list-style: none; /*removing list styling (bullets) for the lists*/
+}
