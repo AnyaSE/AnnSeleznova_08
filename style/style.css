@@ -74,7 +74,18 @@ p[class$="text"] {
 }
 
 .button {
-    
+    width: 225px;
+    margin-left: 399px;
+    text-align: center;
+    padding: 19px 41px 20px;
+    margin-bottom: 141px;
+    color: #FFFFFF;
+    background-color: #34547A;
+}
+
+.button:hover {
+    text-decoration: underline;
+    background-color: #5f85b3;
 }
 
 
