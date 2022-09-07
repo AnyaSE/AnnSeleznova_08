@@ -15,6 +15,7 @@ body {
     line-height: 1; /*setting line height to 1*/
     font-family: 'Roboto', sans-serif; /*setting the font family for the website*/
     background: #F9F9F9; /*setting background colour for the website*/
+    color: #000000;
 }
 
 a {
@@ -71,6 +72,7 @@ ul, ol {
 p[class$="text"] {
     line-height: 26px;
     color: #727272; 
+    width: 540px;
 }
 
 .button {
@@ -87,6 +89,64 @@ p[class$="text"] {
     text-decoration: underline;
     background-color: #5f85b3;
 }
+
+.section__items, .product__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2[class$="title"] {
+    line-height: 37.5px;
+    font-weight: 500;
+    width: 403px;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section__title {
+    margin-top: 112px;
+}
+
+.section__text {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.section__divider, .divider__content, .divider__subcontent {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.section__divider {
+    background: #34547A;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+.divider__subcontent {
+    flex-direction: column;
+}
+
+h3[class$="subtitle"] {
+    padding-bottom: 10px; 
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF
+}
+
+p[class$="item"] {
+    margin-left: 20px;
+    line-height: 26px;
+    color: #FFFFFF
+}
+
+
+
 
 
 
