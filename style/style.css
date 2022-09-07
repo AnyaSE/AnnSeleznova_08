@@ -24,3 +24,58 @@ a {
 ul, ol {
     list-style: none; /*removing list styling (bullets) for the lists*/
 }
+
+.nav {
+    display: flex;
+    padding-top: 79px;
+    margin-left: 399px; 
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+
+.nav__link {
+    padding-right: 42px;
+    color: #000000;
+}
+
+.nav__link:hover {
+    color: #34547A;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav__link:active {
+    color: #34547A;
+    font-weight: 500;
+}
+
+.header {
+    background-color: #EEEFF1;
+}
+
+.banner__title {
+    margin-left: 399px;
+    padding-top: 257px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px; 
+    padding-bottom: 60px; 
+}
+
+.banner__text {
+    margin-left: 400px;
+    width: 540px;
+    padding-bottom: 65px;
+}
+
+p[class$="text"] {
+    line-height: 26px;
+    color: #727272; 
+}
+
+.button {
+    
+}
+
+
+
