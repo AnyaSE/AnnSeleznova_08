@@ -155,6 +155,27 @@ p[class$="item"] {
     padding-bottom: 100px;
 }
 
+.footer, .footer__content {
+    display: flex; 
+    background: #34547A;
+    color: #FFFFFF;
+}
+
+.footer__content {
+    flex-direction: column;
+    padding-left: 406px;
+    padding-top: 50px;
+}
+
+.footer__title {
+    padding-bottom: 20px;
+}
+
+.footer__subcontent {
+    padding-bottom: 50px;
+    font-size: 13px;
+    line-height: 21px;
+}
 
 
 
