@@ -36,150 +36,150 @@ ul, ol {
 }
 
 .nav {
-    padding-bottom: 10%;
-    line-height: 26px;
-    letter-spacing: 0.1em;
+    padding-bottom: 10%; /*setting the padding*/
+    line-height: 26px; /*setting the line height for the nav*/
+    letter-spacing: 0.1em; /*setting the letter spacing for the nav*/
 }
 
 .nav__link {
-    padding-right: 42px;
-    color: #000000;
+    padding-right: 42px; /*setting the padding. This measurement I could not convert to %*/
+    color: #000000; /*setting the color for the nav links*/
 }
 
 .nav__link:hover {
-    color: #34547A;
-    font-weight: 500;
-    cursor: pointer;
+    color: #34547A; /*setting the color for the nav links while hovering*/
+    font-weight: 500; /*setting the font weight for the nav links while hovering*/
+    cursor: pointer; /*changing cursor to pointer*/
 }
 
 .banner__title, .banner__text {
-    padding-bottom: 3%; 
+    padding-bottom: 3%; /*setting padding the padding for banner title and banner text*/
 }
 
 .banner__title {
-    font-weight: 500;
-    font-size: 3rem;
-    line-height: 79px; 
-    width: 30%;
+    font-weight: 500; /*setting the font weight for banner title*/
+    font-size: 3rem; /*setting the font size for banner title*/
+    line-height: 79px; /*setting the line height*/
+    width: 30%; /*setting the width*/
 }
 
 p[class$="text"] {
-    line-height: 26px;
-    color: #727272; 
-    width: 30%;
+    line-height: 26px; /*setting the line height for p class text*/
+    color: #727272; /*setting the font color for p class text*/
+    width: 30%; /*setting the width for p class text*/
 }
 
 .button {
-    width: 13%;
-    text-align: center;
-    padding: 19px 41px 20px;
-    margin-bottom: 9%;
-    color: #FFFFFF;
-    background-color: #34547A;
+    width: 13%; /*setting the width for the button*/
+    text-align: center; /*aligning text in the center*/
+    padding: 19px 41px 20px; /*setting the padding for the button*/
+    margin-bottom: 9%; /*setting the margin*/
+    color: #FFFFFF; /*setting the colour for button font*/
+    background-color: #34547A; /*setting background colour for the button*/
 }
 
 .button:hover {
-    text-decoration: underline;
-    background-color: #5f85b3;
-    cursor: pointer;
+    text-decoration: underline; /*setting text decoration for button while hovering*/
+    background-color: #5f85b3; /*setting background color for the button while hovering*/
+    cursor: pointer; /*setting the cursor to pointer for hover*/
 }
 
 .section__items, .product__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /*setting display flex for section item and product content*/
+    flex-direction: column; /*setting flex direction column*/
+    align-items: center; /*aligning items in the center*/
 }
 
 h2[class$="title"] {
-    line-height: 38px;
-    font-weight: 500;
-    width: 21%;
-    font-size: 2rem;
-    line-height: 38px;
-    text-align: center;
-    padding-bottom: 3%;
+    line-height: 38px; /*setting the line height*/
+    font-weight: 500; /*setting font weight for h2 class*/
+    width: 21%; /*setting the width for h2*/
+    font-size: 2rem; /*setting the font size for h2*/
+    line-height: 38px; /*setting the line height for h2 class*/
+    text-align: center; /*align center for h2 class*/
+    padding-bottom: 3%; /*setting the padding for h2 class*/
 }
 
 .section__title {
-    padding-top: 6%;
+    padding-top: 6%; /*setting padding*/
 }
 
 .section__text {
-    text-align: center;
-    padding-bottom: 5%;
+    text-align: center; /*aligning the section text in the center*/
+    padding-bottom: 5%; /*setting the padding*/
 }
 
 .section__divider, .divider__content, .divider__subcontent {
-    display: flex; 
-    justify-content: center;
+    display: flex; /*setting display flex*/
+    justify-content: center; /*making sure the content is positioned in the center*/
 }
 
 .divider__content {
-    padding: 0 3%;
+    padding: 0 3%; /*setting padding for the divider content*/
 }
 
 .divider__content:hover {
-    scale: 1.2;
+    scale: 1.2; /* adding scale for the hover to make the website more interactive*/
+}
+
+.section__divider, .footer, .footer__content, h3[class$="subtitle"], p[class$="item"] {
+    background: #34547A; /*setting the background*/
+    color: #FFFFFF; /*setting the font colour*/
 }
 
 .section__divider {
-    background: #34547A;
-    padding: 5% 0;
+    padding: 5% 0; /*setting the padding*/
 }
 
 .divider__subcontent {
-    flex-direction: column;
+    flex-direction: column; /*setting flex direction for the divider subconent*/
 }
 
 h3[class$="subtitle"] {
-    padding: 0 0 8% 22%; 
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 25px;
-    color: #FFFFFF
+    padding: 0 0 8% 22%; /*setting the padding for h3 class*/
+    font-weight: 500; /*setting font weight for h3 class*/
+    font-size: 1.3rem; /*setting the font size for the h3 class*/
+    line-height: 25px; /*setting the line height*/
 }
 
 p[class$="item"] {
-    padding-left: 22%;
-    line-height: 26px;
-    color: #FFFFFF
+    padding-left: 22%; /*setting the padding for p class item*/
+    line-height: 26px; /*setting the line height for p class item*/
 }
 
 .product {
-    background: #EEEFF1;
-    padding-top: 5%;
+    background: #EEEFF1; /*setting the background colour for product section*/
+    padding-top: 5%; /*setting the padding*/ 
 }
 
 .product__text {
-    padding-bottom: 3%;
-    text-align: center;
+    padding-bottom: 3%; /*setting the padding*/
+    text-align: center; /*setting the text align for product text*/
 }
 
 .product__video {
-    width: 58%;
-    height: 60vh;
-    padding-bottom: 5%;
+    width: 58%; /*setting the width for the video*/
+    height: 60vh; /*setting the height for the video*/
+    padding-bottom: 5%; /*setting the padding*/
 }
 
 .footer, .footer__content {
-    display: flex; 
-    background: #34547A;
-    color: #FFFFFF;
+    display: flex; /*setting display flex for the footer*/
 }
 
 .footer__content {
-    flex-direction: column;
-    padding-left: 21%;
+    flex-direction: column; /*setting flex direction for footer content*/
+    padding-left: 21%; /*setting the padding*/
 }
 
 .footer__title {
-    padding: 30% 0 10% 0;
+    padding: 30% 0 10% 0; /*setting the padding*/
 }
 
 .footer__subcontent {
-    padding-bottom: 30%;
-    font-size: 0.8rem;
-    line-height: 21px;
+    padding-bottom: 30%; /*setting the padding*/
+    font-size: 0.8rem; /*setting the font size*/
+    line-height: 21px; /*setting the line height*/
 }
 
 
