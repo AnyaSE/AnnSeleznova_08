@@ -57,23 +57,23 @@ ul, ol {
 }
 
 .banner__title {
+    width: 30%; /*setting the width*/
     font-weight: 500; /*setting the font weight for banner title*/
     font-size: 3rem; /*setting the font size for banner title*/
     line-height: 79px; /*setting the line height*/
-    width: 30%; /*setting the width*/
 }
 
 p[class$="text"] {
+    width: 30%; /*setting the width for p class text*/
     line-height: 26px; /*setting the line height for p class text*/
     color: #727272; /*setting the font color for p class text*/
-    width: 30%; /*setting the width for p class text*/
 }
 
 .button {
     width: 13%; /*setting the width for the button*/
-    text-align: center; /*aligning text in the center*/
-    padding: 19px 41px 20px; /*setting the padding for the button*/
     margin-bottom: 9%; /*setting the margin*/
+    padding: 19px 41px 20px; /*setting the padding for the button*/
+    text-align: center; /*aligning text in the center*/
     color: #FFFFFF; /*setting the colour for button font*/
     background-color: #34547A; /*setting background colour for the button*/
 }
@@ -91,13 +91,12 @@ p[class$="text"] {
 }
 
 h2[class$="title"] {
-    line-height: 38px; /*setting the line height*/
-    font-weight: 500; /*setting font weight for h2 class*/
     width: 21%; /*setting the width for h2*/
-    font-size: 2rem; /*setting the font size for h2*/
-    line-height: 38px; /*setting the line height for h2 class*/
     text-align: center; /*align center for h2 class*/
     padding-bottom: 3%; /*setting the padding for h2 class*/
+    line-height: 38px; /*setting the line height*/
+    font-weight: 500; /*setting font weight for h2 class*/
+    font-size: 2rem; /*setting the font size for h2*/
 }
 
 .section__title {
@@ -105,8 +104,8 @@ h2[class$="title"] {
 }
 
 .section__text {
-    text-align: center; /*aligning the section text in the center*/
     padding-bottom: 5%; /*setting the padding*/
+    text-align: center; /*aligning the section text in the center*/
 }
 
 .section__divider, .divider__content, .divider__subcontent {
@@ -148,8 +147,8 @@ p[class$="item"] {
 }
 
 .product {
-    background: #EEEFF1; /*setting the background colour for product section*/
     padding-top: 5%; /*setting the padding*/ 
+    background: #EEEFF1; /*setting the background colour for product section*/
 }
 
 .product__text {
