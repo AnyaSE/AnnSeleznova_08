@@ -12,10 +12,9 @@ html {
 
 body {
     font-size: 1rem; /*making 16px font-size equivalent to 1 rem*/
-    line-height: 1; /*setting line height to 1*/
     font-family: 'Roboto', sans-serif; /*setting the font family for the website*/
     background: #F9F9F9; /*setting background colour for the website*/
-    color: #000000;
+    color: #000000; /*setting the font colour*/
 }
 
 a {
@@ -26,20 +25,17 @@ ul, ol {
     list-style: none; /*removing list styling (bullets) for the lists*/
 }
 
-.wrapper {
-    width: 100%; 
-    height: 100%;
+.header, .nav {
+    display: flex; /*setting flex for the header and nav*/
 }
 
 .header {
-    display: flex; 
-    flex-direction: column;
-    padding: 4% 0 0 21%;
-    background-color: #EEEFF1;
+    flex-direction: column; /*setting flex direction for the header*/
+    padding: 4% 0 0 21%; /*setting the padding*/
+    background-color: #EEEFF1; /*setting background colour for the header (different from website background)*/
 }
 
 .nav {
-    display: flex;
     padding-bottom: 10%;
     line-height: 26px;
     letter-spacing: 0.1em;
@@ -64,7 +60,7 @@ ul, ol {
     font-weight: 500;
     font-size: 3rem;
     line-height: 79px; 
-    width: 540px;
+    width: 30%;
 }
 
 p[class$="text"] {
@@ -77,7 +73,7 @@ p[class$="text"] {
     width: 13%;
     text-align: center;
     padding: 19px 41px 20px;
-    margin-bottom: 141px;
+    margin-bottom: 9%;
     color: #FFFFFF;
     background-color: #34547A;
 }
@@ -85,6 +81,7 @@ p[class$="text"] {
 .button:hover {
     text-decoration: underline;
     background-color: #5f85b3;
+    cursor: pointer;
 }
 
 .section__items, .product__content {
@@ -94,67 +91,74 @@ p[class$="text"] {
 }
 
 h2[class$="title"] {
-    line-height: 37.5px;
+    line-height: 38px;
     font-weight: 500;
-    width: 403px;
-    font-size: 32px;
+    width: 21%;
+    font-size: 2rem;
     line-height: 38px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 3%;
 }
 
 .section__title {
-    margin-top: 112px;
+    padding-top: 6%;
 }
 
 .section__text {
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 5%;
 }
 
 .section__divider, .divider__content, .divider__subcontent {
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.divider__content {
+    padding: 0 3%;
+}
+
+.divider__content:hover {
+    scale: 1.2;
 }
 
 .section__divider {
     background: #34547A;
-    padding: 100px 0;
+    padding: 5% 0;
 }
 
 .divider__subcontent {
     flex-direction: column;
 }
 
-.product {
-    background: #EEEFF1;
-    padding-top: 100px;
-}
-
 h3[class$="subtitle"] {
-    padding-bottom: 10px; 
-    margin-left: 20px;
+    padding: 0 0 8% 22%; 
     font-weight: 500;
-    font-size: 21px;
+    font-size: 1.3rem;
     line-height: 25px;
     color: #FFFFFF
 }
 
 p[class$="item"] {
-    margin-left: 20px;
+    padding-left: 22%;
     line-height: 26px;
     color: #FFFFFF
 }
 
+.product {
+    background: #EEEFF1;
+    padding-top: 5%;
+}
+
 .product__text {
-    padding-bottom: 57px;
+    padding-bottom: 3%;
     text-align: center;
 }
 
 .product__video {
-    width: 1110px;
-    height: 600px;
-    padding-bottom: 100px;
+    width: 58%;
+    height: 60vh;
+    padding-bottom: 5%;
 }
 
 .footer, .footer__content {
@@ -165,17 +169,16 @@ p[class$="item"] {
 
 .footer__content {
     flex-direction: column;
-    padding-left: 406px;
-    padding-top: 50px;
+    padding-left: 21%;
 }
 
 .footer__title {
-    padding-bottom: 20px;
+    padding: 30% 0 10% 0;
 }
 
 .footer__subcontent {
-    padding-bottom: 50px;
-    font-size: 13px;
+    padding-bottom: 30%;
+    font-size: 0.8rem;
     line-height: 21px;
 }
 
