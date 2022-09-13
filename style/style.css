@@ -48,8 +48,11 @@ ul, ol {
 
 .nav__link:hover {
     color: #34547A; /*setting the color for the nav links while hovering*/
-    font-weight: 500; /*setting the font weight for the nav links while hovering*/
     cursor: pointer; /*changing cursor to pointer*/
+}
+
+.nav__link:hover, .banner__title, h2[class$="title"], h3[class$="subtitle"] {
+    font-weight: 500; /*setting the font weight for all of the above items*/
 }
 
 .banner__title, .banner__text {
@@ -57,8 +60,6 @@ ul, ol {
 }
 
 .banner__title {
-    width: 30%; /*setting the width*/
-    font-weight: 500; /*setting the font weight for banner title*/
     font-size: 3rem; /*setting the font size for banner title*/
     line-height: 79px; /*setting the line height*/
 }
@@ -70,7 +71,7 @@ p[class$="text"] {
 }
 
 .button {
-    width: 13%; /*setting the width for the button*/
+    display: inline-block;
     margin-bottom: 9%; /*setting the margin*/
     padding: 19px 41px 20px; /*setting the padding for the button*/
     text-align: center; /*aligning text in the center*/
@@ -91,11 +92,9 @@ p[class$="text"] {
 }
 
 h2[class$="title"] {
-    width: 21%; /*setting the width for h2*/
     text-align: center; /*align center for h2 class*/
     padding-bottom: 3%; /*setting the padding for h2 class*/
     line-height: 38px; /*setting the line height*/
-    font-weight: 500; /*setting font weight for h2 class*/
     font-size: 2rem; /*setting the font size for h2*/
 }
 
@@ -136,7 +135,6 @@ h2[class$="title"] {
 
 h3[class$="subtitle"] {
     padding: 0 0 8% 22%; /*setting the padding for h3 class*/
-    font-weight: 500; /*setting font weight for h3 class*/
     font-size: 1.3rem; /*setting the font size for the h3 class*/
     line-height: 25px; /*setting the line height*/
 }
@@ -158,7 +156,7 @@ p[class$="item"] {
 
 .product__video {
     width: 58%; /*setting the width for the video*/
-    height: 60vh; /*setting the height for the video*/
+    height: 600px; /*setting the height for the video*/
     padding-bottom: 5%; /*setting the padding*/
 }
 
